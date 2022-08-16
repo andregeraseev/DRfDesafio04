@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'renda',
     'usuario',
     'django_filters',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
