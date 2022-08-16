@@ -19,7 +19,7 @@ class UsuarioSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Usuario
-        fields = ('username','email', 'password', 'password_confirm')
+        fields = ('username', 'email', 'password', 'password_confirm')
         extra_kwargs = {'password': {'write_only': True}}
 
     def save(self):
