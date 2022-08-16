@@ -3,13 +3,13 @@ from .models import Usuario
 
 class UsuarioSerializer(serializers.ModelSerializer):
 
-    password = serializers.CharField(
+    password = serializers.SlugField(
         style={'input_type': 'password'},
         write_only=True,
         label="Senha"
     )
 
-    password_confirm = serializers.CharField(
+    password_confirm = serializers.SlugField(
         style={'input_type': 'password'},
         write_only=True,
         label="Confirme a senha"
