@@ -7,7 +7,7 @@ Api que guarda despesas e rendas, devolvendo listas de ambas com consultas e res
 
 https://desafiobackend04.herokuapp.com/doc/
 
-##cadastrar_usuario
+<b>cadastrar_usuario</b>
 
 
 GET
@@ -39,7 +39,7 @@ DELETE
 /cadastrar_usuario/{id}/
 cadastrar_usuario_delete
 
-##despesas
+<b>despesas</b>
 
 
 GET
@@ -76,7 +76,7 @@ DELETE
 /despesas/{id}/
 despesas_delete
 
-##receitas
+<b>receitas</b>
 
 
 GET
@@ -113,7 +113,7 @@ DELETE
 /receitas/{id}/
 receitas_delete
 
-##resumo
+<b>resumo</b>
 
 GET
 /resumo/{ano}/{mes}/
