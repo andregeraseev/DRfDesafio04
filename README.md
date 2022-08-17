@@ -139,7 +139,8 @@ email*	                        string($email)
                                maxLength: 30
                                minLength: 1
                                
-password*	string($slug)        title: Senha                   
+password*	                     string($slug)        
+                               title: Senha                   
                                pattern: ^[-a-zA-Z0-9_]+$
                                minLength: 1
                                
@@ -153,12 +154,12 @@ password_confirm*	             string($slug)
 ## Despesas
 ```
 {
-descricao*	                     string
+descricao*	                    string
                                 title: Descricao
                                 maxLength: 100
                                 minLength: 1
                                 
-valor*	                         string($decimal)
+valor*	                        string($decimal)
 title:                          Valor     
 
 categoria	                      string
@@ -174,15 +175,15 @@ data*	                          string($date)
 ## Receita
 ```
 {
-descricao*	                     string               
+descricao*	                    string               
                                 title: Descricao
                                 maxLength: 100
                                 minLength: 1
                                 
-valor*	                         string($decimal)
+valor*	                        string($decimal)
                                 title: Valor
                                 
-categoria*	                     string
+categoria*	                    string
                                 title: Categoria
                                 maxLength: 50
                                 minLength: 1
