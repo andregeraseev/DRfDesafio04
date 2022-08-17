@@ -1,6 +1,6 @@
 ## Readme Projeto Api Financeiro
 
-Api que guarda despesas e rendas devolvendo listas de ambas com consultas e resumos mensais  
+Api que guarda despesas e rendas, devolvendo listas de ambas com consultas e resumos mensais  
 
 
 ## Endpoints para utilizar o projeto
