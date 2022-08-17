@@ -134,7 +134,7 @@ username*                      string
                                maxLength: 40
                                minLength: 1
                                
-email*	                        string($email)          
+email*	                       string($email)          
                                title: Email
                                maxLength: 30
                                minLength: 1
@@ -160,7 +160,7 @@ descricao*	                    string
                                 minLength: 1
                                 
 valor*	                        string($decimal)
-title:                          Valor     
+                                title: Valor     
 
 categoria	                      string
                                 title: Categoria
