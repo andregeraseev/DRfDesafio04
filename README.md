@@ -121,7 +121,8 @@ GET
 
 ## Modelos
 
-'username*	string
+`
+username*	string
 title: Username
 maxLength: 40
 minLength: 1
@@ -138,8 +139,8 @@ title: Confirme a senha
 pattern: ^[-a-zA-Z0-9_]+$
 minLength: 1
  
-}'
-
+}
+`
 
 
 ## 📁 Acesso ao projeto
