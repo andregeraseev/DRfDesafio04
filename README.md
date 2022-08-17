@@ -5,7 +5,7 @@
 ##  Api Financeiro
 
 Projeto de gerenciamento financeiro para despesas e rendas, devolvendo listas de ambas com consultas e resumos mensais.
-consiste em um  CRUD que pode ser utilizado diretamente pela URL, abaixo temos todas endpoits ou usando algum programa como postman, todos modelos para fazer as requisisões abaixo tambem.
+consiste em um  CRUD que pode ser utilizado diretamente pela URL, abaixo temos todas endpoits, tamabem pode ser utilizado mandando e recebendo requisições com programas como postman por exemplo, todos modelos para fazer as requisisões estão abaixo.
 
 
 ## Endpoints para utilizar o projeto
