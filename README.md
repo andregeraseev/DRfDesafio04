@@ -119,6 +119,28 @@ GET
 /resumo/{ano}/{mes}/
 
 
+## Modelos
+
+'username*	string
+title: Username
+maxLength: 40
+minLength: 1
+email*	string($email)
+title: Email
+maxLength: 30
+minLength: 1
+password*	string($slug)
+title: Senha
+pattern: ^[-a-zA-Z0-9_]+$
+minLength: 1
+password_confirm*	string($slug)
+title: Confirme a senha
+pattern: ^[-a-zA-Z0-9_]+$
+minLength: 1
+ 
+}'
+
+
 
 ## 📁 Acesso ao projeto
 
