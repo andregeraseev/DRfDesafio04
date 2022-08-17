@@ -121,26 +121,72 @@ GET
 
 ## Modelos
 
+# Usuario
 ```
-username*	string
-title: Username
-maxLength: 40
-minLength: 1
-email*	string($email)
-title: Email
-maxLength: 30
-minLength: 1
-password*	string($slug)
-title: Senha
-pattern: ^[-a-zA-Z0-9_]+$
-minLength: 1
-password_confirm*	string($slug)
-title: Confirme a senha
-pattern: ^[-a-zA-Z0-9_]+$
-minLength: 1
- 
-}```
+{
+username*                      string
+                               title: Username
+                               maxLength: 40
+                               minLength: 1
+                               
+email*	                        string($email)          
+                               title: Email
+                               maxLength: 30
+                               minLength: 1
+                               
+password*	string($slug)        title: Senha                   
+                               pattern: ^[-a-zA-Z0-9_]+$
+                               minLength: 1
+                               
+password_confirm*	             string($slug)
+                               title: Confirme a senha        
+                               pattern: ^[-a-zA-Z0-9_]+$
+                               minLength: 1 
+}
+```
 
+## Despesas
+```
+{
+descricao*	                     string
+                                title: Descricao
+                                maxLength: 100
+                                minLength: 1
+                                
+valor*	                         string($decimal)
+title:                          Valor     
+
+categoria	                      string
+                                title: Categoria
+                                Enum:
+                                Array [ 8 ]
+                                
+data*	                          string($date)
+                                title: Data 
+}
+```
+
+## Receita
+```
+{
+descricao*	                     string               
+                                title: Descricao
+                                maxLength: 100
+                                minLength: 1
+                                
+valor*	                         string($decimal)
+                                title: Valor
+                                
+categoria*	                     string
+                                title: Categoria
+                                maxLength: 50
+                                minLength: 1
+                                
+data*	                          string($date)
+                                title: Data
+ 
+}
+```
 
 ## 📁 Acesso ao projeto
 
